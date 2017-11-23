@@ -64,8 +64,8 @@
     @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/d337d8/000000000000000000010095/27/l?subset_id=2&fvd=i4) format("woff2");font-weight:400;font-style:italic;}</style>
   <%- css('css/style') %>
 
-  <%- js('js/jquery-3.1.1.min.js') %>
-  <%- js('js/bootstrap') %>
+  <%- js('http://ohrm5hh95.bkt.clouddn.com/sqt/jquery-3.1.1.min.js') %>
+  <%- js('http://ohrm5hh95.bkt.clouddn.com/sqt/bootstrap.js') %>
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="<%- config.root %>css/bootstrap.css" >
@@ -77,7 +77,7 @@
   <% } %>
 
   <% if (is_home() && theme.home_background_image.enable && theme.home_background_image.mode == "trianglify") { %>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.4.0/trianglify.min.js"></script>
+    <script type="text/javascript" src="http://ohrm5hh95.bkt.clouddn.com/sqt/trianglify.min.js"></script>
   <% } %>
 
   <% if (!is_home() || !theme.home_background_image.enable){ %>

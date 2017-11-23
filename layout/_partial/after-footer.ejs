@@ -17,18 +17,18 @@
 <%- partial('post/mathjax.ejs') %>
 
 <% if (theme.fancybox){ %>
-  <%- css('fancybox/jquery.fancybox') %>
-  <%- js('fancybox/jquery.fancybox.pack') %>
+  <%- css('http://ohrm5hh95.bkt.clouddn.com/sqt/jquery.fancybox.css') %>
+  <%- js('http://ohrm5hh95.bkt.clouddn.com/sqt/jquery.fancybox.pack.js') %>
 <% } %>
 
-<%- js('js/scripts') %>
+<%- js('http://ohrm5hh95.bkt.clouddn.com/sqt/scripts.js') %>
 
 <% if (is_home() || !theme.home_background_image.enable){ %>
-  <%- js('js/home') %>
+  <%- js('http://ohrm5hh95.bkt.clouddn.com/sqt/home.js') %>
 <% } %>
 
 <% if (is_post()){ %>
-  <%- js('js/dialog') %>
+  <%- js('http://ohrm5hh95.bkt.clouddn.com/sqt/dialog.js') %>
 <% } %>
 
 <%- partial('google-analytics') %>

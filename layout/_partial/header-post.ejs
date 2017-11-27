@@ -14,11 +14,11 @@
             <% if (theme.avatar.enable){ %>
               <a class="brand" style="
                 <% if (!theme.avatar.border){ %> border-width: 0px; <% } %> margin-top: <%= theme.avatar.top %>px;"  
-                <% if (is_post()){ %>href="#" data-toggle="modal" data-target="#myModal"<% } %> >
+                <% if (is_post()){ %>href="https://sqt-fe.github.io" data-toggle="modal" data-target="#myModal"<% } %> >
                   <img width="<%= theme.avatar.width %>px" height="<%= theme.avatar.height %>px" alt="Hike News" src="<%- partial('post/urlconvert', {tempUrl: theme.avatar.url}) %>">
               </a>
             <% } else { %>
-              <a class="brand" style="border-width: 0;">
+              <a class="brand" style="border-width: 0;" href="https://sqt-fe.github.io">
                 <p><%= config.title || config.author %></p>
               </a>
             <% } %>
